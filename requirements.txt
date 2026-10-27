@@ -1,0 +1,13 @@
+# Core (notebook + demo API + BOLA test engine)
+flask>=3.0
+requests>=2.31
+pandas>=2.0
+matplotlib>=3.7
+notebook>=7.0
+
+# OWASP ZAP API client (only needed for the ZAP automation cell)
+python-owasp-zap-v2.4>=0.0.21
+
+# Not installable with pip - install separately:
+#   Newman (Postman CLI runner):  npm install -g newman     (requires Node.js)
+#   OWASP ZAP desktop/daemon:     https://www.zaproxy.org/download/
